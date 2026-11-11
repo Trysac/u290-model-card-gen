@@ -19,6 +19,9 @@ classifiers = [
 ]
 dependencies = []
 
+[project.scripts]
+model-card-gen = "model_card_gen.__main__:main"
+
 [project.urls]
 Homepage = "https://github.com/Trysac/u290-model-card-gen"
 Source = "https://github.com/Trysac/u290-model-card-gen"
